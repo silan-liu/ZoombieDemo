@@ -15,6 +15,10 @@
 		AD53033D1FF5E1EB00C69179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD53033C1FF5E1EB00C69179 /* main.m */; };
 		AD5303471FF5E1EB00C69179 /* ZoombieDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5303461FF5E1EB00C69179 /* ZoombieDemoTests.m */; };
 		AD5303521FF5E1EB00C69179 /* ZoombieDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5303511FF5E1EB00C69179 /* ZoombieDemoUITests.m */; };
+		AD5303611FF5E20E00C69179 /* ZoombieObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5303601FF5E20E00C69179 /* ZoombieObject.m */; };
+		AD5303641FF5E40600C69179 /* NSObject+HookDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5303631FF5E40600C69179 /* NSObject+HookDealloc.m */; };
+		AD5303671FF5E61700C69179 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5303661FF5E61700C69179 /* Test.m */; };
+		ADE51CD41FFA380700C6A1CA /* StubProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE51CD31FFA380700C6A1CA /* StubProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		AD53034D1FF5E1EB00C69179 /* ZoombieDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoombieDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5303511FF5E1EB00C69179 /* ZoombieDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoombieDemoUITests.m; sourceTree = "<group>"; };
 		AD5303531FF5E1EB00C69179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD53035F1FF5E20E00C69179 /* ZoombieObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoombieObject.h; sourceTree = "<group>"; };
+		AD5303601FF5E20E00C69179 /* ZoombieObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoombieObject.m; sourceTree = "<group>"; };
+		AD5303621FF5E40600C69179 /* NSObject+HookDealloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HookDealloc.h"; sourceTree = "<group>"; };
+		AD5303631FF5E40600C69179 /* NSObject+HookDealloc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HookDealloc.m"; sourceTree = "<group>"; };
+		AD5303651FF5E61700C69179 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		AD5303661FF5E61700C69179 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		ADE51CD21FFA380700C6A1CA /* StubProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StubProxy.h; sourceTree = "<group>"; };
+		ADE51CD31FFA380700C6A1CA /* StubProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StubProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				AD5303381FF5E1EB00C69179 /* LaunchScreen.storyboard */,
 				AD53033B1FF5E1EB00C69179 /* Info.plist */,
 				AD53033C1FF5E1EB00C69179 /* main.m */,
+				AD53035F1FF5E20E00C69179 /* ZoombieObject.h */,
+				AD5303601FF5E20E00C69179 /* ZoombieObject.m */,
+				AD5303621FF5E40600C69179 /* NSObject+HookDealloc.h */,
+				AD5303631FF5E40600C69179 /* NSObject+HookDealloc.m */,
+				AD5303651FF5E61700C69179 /* Test.h */,
+				AD5303661FF5E61700C69179 /* Test.m */,
+				ADE51CD21FFA380700C6A1CA /* StubProxy.h */,
+				ADE51CD31FFA380700C6A1CA /* StubProxy.m */,
 			);
 			path = ZoombieDemo;
 			sourceTree = "<group>";
@@ -267,6 +287,10 @@
 			files = (
 				AD5303321FF5E1EB00C69179 /* ViewController.m in Sources */,
 				AD53033D1FF5E1EB00C69179 /* main.m in Sources */,
+				AD5303611FF5E20E00C69179 /* ZoombieObject.m in Sources */,
+				AD5303671FF5E61700C69179 /* Test.m in Sources */,
+				ADE51CD41FFA380700C6A1CA /* StubProxy.m in Sources */,
+				AD5303641FF5E40600C69179 /* NSObject+HookDealloc.m in Sources */,
 				AD53032F1FF5E1EB00C69179 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

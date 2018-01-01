@@ -10,4 +10,6 @@
 
 @interface StubProxy : NSObject
 
+- (void)stub;
+
 @end

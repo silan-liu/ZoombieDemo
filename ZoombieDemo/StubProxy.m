@@ -10,4 +10,7 @@
 
 @implementation StubProxy
 
+- (void)stub {
+    NSLog(@"stub");
+}
 @end

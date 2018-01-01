@@ -7,7 +7,16 @@
 //
 
 #import "Test.h"
+#import "ZoombieObject.h"
+#import <objc/runtime.h>
 
 @implementation Test
 
+- (void)test {
+    NSLog(@"test");
+}
+
+- (void)dealloc {
+    NSLog(@"dealloc");
+}
 @end
